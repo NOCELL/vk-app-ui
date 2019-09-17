@@ -1,4 +1,5 @@
-import {Component} from "react"
+shimport {Component} from
+"react"
 import PropTypes from 'prop-types'
 import React from "react"
 
