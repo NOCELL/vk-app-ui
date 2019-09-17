@@ -1,7 +1,7 @@
 {
   "name": "@happysanta/vk-app-ui",
-  "version": "0.1.28",
-  "main": "dist/vkappui.js",
+  "version": "0.1.30",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack -p",
@@ -30,12 +30,6 @@
     "url": "https://github.com/HappySanta/vk-app-ui/issues"
   },
   "homepage": "https://github.com/HappySanta/vk-app-ui#readme",
-  "peerDependencies": {
-    "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "moment": "^2.22.2"
-  },
   "devDependencies": {
     "autoprefixer": "^7.2.3",
     "babel-cli": "^6.26.0",
@@ -54,5 +48,11 @@
     "webpack-cli": "^3.0.8",
     "prop-types": "latest"
   },
-  "description": "Элементы интерфейса в стиле ВК"
+  "description": "Элементы интерфейса в стиле ВК",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "moment": "^2.24.0"
+  }
 }

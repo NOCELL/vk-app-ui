@@ -53,5 +53,10 @@ module.exports = {
   ],
   externals: {
     'react': 'commonjs react'
-  }
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
 };
