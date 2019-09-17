@@ -1,33 +1,15 @@
-import Button from './components/Button/Button'
-import Link from './components/Link/Link'
-import WaitDots from './components/WaitDots/WaitDots'
-import Input from './components/Input/Input'
-import Checkbox from './components/Checkbox/Checkbox'
-import Radio from './components/Radio/Radio'
-import TimeView from './components/TimeView/TimeView'
-import Arrow from './components/Arrow/Arrow'
-import ModalDialog from './components/ModalDialog/ModalDialog'
-import Textarea from './components/Textarea/Textarea'
-import Notify from './components/Notify/Notify'
-import PageDialog from './components/PageDialog/PageDialog'
-import DropDown from './components/DropDown/DropDown'
-import Calendar from "./components/Calendar/Calendar"
-import DatePicker from "./components/DatePicker/DatePicker"
-
-module.exports = {
-	Button,
-	Link,
-	WaitDots,
-	Input,
-	Checkbox,
-	Radio,
-	TimeView,
-	Arrow,
-	ModalDialog,
-	Textarea,
-	Notify,
-	PageDialog,
-	DropDown,
-	DatePicker,
-	Calendar
-}
+export {default as Button}from './components/Button/Button'
+export {default as Link}from './components/Link/Link'
+export {default as WaitDots}from './components/WaitDots/WaitDots'
+export {default as Input}from './components/Input/Input'
+export {default as Checkbox} from './components/Checkbox/Checkbox'
+export {default as Radio} from './components/Radio/Radio'
+export {default as TimeView}from './components/TimeView/TimeView'
+export {default as Arrow} from './components/Arrow/Arrow'
+export {default as ModalDialog} from './components/ModalDialog/ModalDialog'
+export {default as Textarea}from './components/Textarea/Textarea'
+export {default as Notify} from './components/Notify/Notify'
+export {default as PageDialog}from './components/PageDialog/PageDialog'
+export {default as DropDown} from './components/DropDown/DropDown'
+export {default as Calendar} from "./components/Calendar/Calendar"
+export {default as DatePicker} from "./components/DatePicker/DatePicker"
