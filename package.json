@@ -22,7 +22,8 @@
     "plugins": [
       "transform-object-rest-spread",
       "transform-react-jsx",
-      "transform-class-properties"
+      "transform-class-properties",
+      "@babel/plugin-proposal-class-properties"
     ]
   },
   "license": "MIT",
@@ -31,6 +32,7 @@
   },
   "homepage": "https://github.com/HappySanta/vk-app-ui#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "autoprefixer": "^7.2.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -42,11 +44,11 @@
     "css-loader": "^0.27.1",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.2",
+    "prop-types": "latest",
     "react-styleguidist": "^7.1.0",
     "sass-loader": "^7.0.3",
     "webpack": "^4.16.1",
-    "webpack-cli": "^3.0.8",
-    "prop-types": "latest"
+    "webpack-cli": "^3.0.8"
   },
   "description": "Элементы интерфейса в стиле ВК",
   "dependencies": {
