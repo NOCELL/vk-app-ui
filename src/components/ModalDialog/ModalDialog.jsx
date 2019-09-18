@@ -5,12 +5,14 @@ import Button from "../Button/Button"
 import css from './ModalDialog.scss'
 
 export default class ModalDialog extends Component {
+	constructor() {
+		super()
 
-	windowNode = null
-	rootNode = null
-	bgNode = null
-
-	oldOverflowValue = ''
+		this.windowNode = null
+		this.rootNode = null
+		this.bgNode = null
+		this.oldOverflowValue = ''
+	}
 
 	onClose = (type, ev) => {
 		if (this.props.loading) {
