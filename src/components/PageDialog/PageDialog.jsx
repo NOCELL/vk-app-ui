@@ -4,13 +4,16 @@ import {createClassName} from "../../tools"
 import css from './PageDialog.scss'
 
 export default class PageDialog extends Component {
+	constructor() {
+		super()
 
-	windowNode = null
-	rootNode = null
-	bgNode = null
+		this.windowNode = null
+		this.rootNode = null
+		this.bgNode = null
 
-	oldOverflowValue = ''
+		this.oldOverflowValue = ''
 
+	}
 	onClose = (type, ev) => {
 		this.props.onClose(type, ev)
 	}

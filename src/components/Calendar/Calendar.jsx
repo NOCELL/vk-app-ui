@@ -7,15 +7,14 @@ import {getWeeksInMonth, monthNamesFullRU, weekNamesShortRU} from "./helpers"
 
 export default class Calendar extends Component {
 
-	state = {
-		currentDay: null,
-		monthPick: false,
-	}
 
 	constructor(props) {
 		super(props)
 
-		this.state.currentDay = this.props.currentDay
+		this.state = {
+			currentDay: this.props.currentDay,
+			monthPick: false,
+		}
 	}
 
 	componentWillReceiveProps(nextProps) {

@@ -6,8 +6,11 @@ import {createClassName, isMobile} from "../../tools"
 
 class Button extends Component {
 
-	minWidth = null
-	node = null
+    constructor() {
+        super()
+        this.minWidth = null
+        this.node = null
+    }
 
 	componentDidMount() {
 		this.updateMinWith()

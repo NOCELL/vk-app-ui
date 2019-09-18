@@ -11,12 +11,15 @@ function nothing() {
 }
 
 export default class DatePicker extends Component {
+	constructor() {
+		super()
 
-	state = {
-		open: false
+		this.state = {
+			open: false
+		}
+
+		this.isMouseDownEvent = false
 	}
-
-	isMouseDownEvent = false
 
 	onFocus = () => {
 		if (!this.state.open) {
