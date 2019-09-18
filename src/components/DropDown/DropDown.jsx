@@ -4,15 +4,12 @@ import css from './DropDown.scss'
 import {createClassName} from "../../tools"
 
 export default class DropDown extends Component {
-	constructor() {
-		super()
+	constructor(props) {
+		super(props)
 		this.state = {
 			inputValue: "",
 			dropDown: false,
 		}
-	}
-	constructor(props) {
-		super(props)
 		this.handleClickOutside = this.handleClickOutside.bind(this)
 	}
 
